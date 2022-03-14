@@ -1,0 +1,104 @@
+[
+  {
+    "id": 11,
+    "title": "Swindlr",
+    "text": "A group project at ITHS where we created a dating site called Swindlr.",
+    "link": "swindlr/index.html",
+    "url": "/assets/work/swindlr.png",
+    "button": "Live version"
+  },
+  {
+    "id": 10,
+    "title": "Season ticket",
+    "text": "Season ticket design for Frillesås Bandy, for the season 2021/2022.",
+    "path": "/work/10",
+    "url": "/assets/work/card.png",
+    "fullImage": "/assets/work/full/card.png",
+    "srcset": "/assets/work/small/card.png 350w, /assets/work/full/card.png 700w",
+    "button": "Check me out!"
+  },
+  {
+    "id": 9,
+    "title": "PCC",
+    "text": "An individual project at ITHS where I created a web app for comparing phones by properties, benchmark and price.",
+    "link": "pcc/index.html",
+    "url": "/assets/work/pcc.png",
+    "button": "Live version"
+  },
+  {
+    "id": 8,
+    "title": "Merchandise",
+    "text": "Merchandise designs for Frillesås Bandy.",
+    "path": "/work/8",
+    "url": "/assets/work/t-shirts.png",
+    "fullImage": "/assets/work/full/t-shirts.png",
+    "srcset": "/assets/work/small/t-shirts.png 350w, /assets/work/full/t-shirts.png 700w",
+    "button": "Check me out!"
+  },
+  {
+    "id": 7,
+    "title": "TTVDB",
+    "text": "An individual project at ITHS where I created a web app for checking the facts about your favorite tv shows.",
+    "link": "ttvdb/index.html",
+    "url": "/assets/work/ttvdb.png",
+    "button": "Live version"
+  },
+  {
+    "id": 6,
+    "title": "Garden shed",
+    "text": "A 3D model of a sea-side garden shed, made with Autodesk Maya.",
+    "path": "/work/6",
+    "url": "/assets/work/shed.png",
+    "fullImage": "/assets/work/full/shed.png",
+    "srcset": "/assets/work/small/shed.png 350w, /assets/work/full/shed.png 700w",
+    "button": "Check me out!"
+  },
+  {
+    "id": 5,
+    "title": "Frillesås Bandy",
+    "text": "A group project at ITHS where we created a new website design idea for Frillesås Bandy.",
+    "link": "fbk/index.html",
+    "url": "/assets/work/fbk.png",
+    "button": "Live version"
+  },
+  {
+    "id": 4,
+    "title": "Bridge",
+    "text": "A 3D model of a stone bridge, made with Autodesk Maya.",
+    "path": "/work/4",
+    "url": "/assets/work/bridge.png",
+    "fullImage": "/assets/work/full/bridge.png",
+    "srcset": "/assets/work/small/bridge.png 350w, /assets/work/full/bridge.png 700w",
+    "button": "Check me out!"
+  },
+  {
+    "id": 3,
+    "title": "Bandy players",
+    "text": "A vector graphic of two bandy players, made in Adobe Illustrator.",
+    "path": "/work/3",
+    "url": "/assets/work/players.png",
+    "fullImage": "/assets/work/full/players.png",
+    "srcset": "/assets/work/small/players.png 350w, /assets/work/full/players.png 700w",
+    "button": "Check me out!"
+  },
+  {
+    "id": 2,
+    "title": "Arena",
+    "text": "A 3D model aerial view of a bandy arena, made with Autodesk Maya.",
+    "path": "/work/2",
+    "url": "/assets/work/arena.png",
+    "fullImage": "/assets/work/full/arena.png",
+    "srcset": "/assets/work/small/arena.png 350w, /assets/work/full/arena.png 700w",
+    "button": "Check me out!"
+  },
+  {
+    "id": 1,
+    "title": "Kitchen",
+    "text": "A 3D model of a small kitchen, made with Autodesk Maya.",
+    "path": "/work/1",
+    "url": "/assets/work/kitchen.png",
+    "fullImage": "/assets/work/full/kitchen.png",
+    "srcset": "/assets/work/small/kitchen.png 350w, /assets/work/full/kitchen.png 700w",
+    "button": "Check me out!"
+  }
+]

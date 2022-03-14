@@ -1,0 +1,489 @@
+body {
+  font-family: "Roboto", Arial, sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  max-width: 1600px;
+  background-color: darkgrey;
+}
+
+header {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  margin-top: 1rem;
+}
+
+#header-logo {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+#header-logo h1 {
+  padding-left: 4rem;
+  align-self: flex-end;
+  font-size: 3rem;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+nav {
+  background-color: darkgreen;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0 0 0 2rem;
+}
+
+ul li a:hover {
+  background-color: #37860B;
+}
+
+ul li a {
+  display: flex;
+  padding: 1.2em;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+main {
+  width: 100%;
+  background-color: white;
+  border-radius: 0;
+}
+
+.contact-info {
+  width: 100%;
+  margin: 0 0 32px 0;
+  padding: 0 0 32px 0;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  column-gap: 16px;
+  width: 100%;
+}
+
+.news-article {
+  max-width: 100%;
+  margin: 8px 8px 24px 8px;
+  background-color: #eee;
+  border-radius: 1rem;
+}
+
+.news-article h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.news-article h2 a:hover {
+  color: #434343;
+}
+
+.news-article a {
+  color: #007d15;
+}
+
+.news-article a:hover {
+  color: #014e02;
+  text-decoration: none;
+}
+
+.head-news-card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  height: 100%;
+}
+
+.head-news-media {
+  background-image: url(images/falun_730.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  border-radius: 16px 16px 0 0;
+}
+
+.news-card {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.news-media,
+.news-media-2,
+.news-media-3,
+.news-media-4 {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  border-radius: 16px 16px 0 0;
+}
+
+.news-media {
+  background-image: url(images/sergei_550.jpg);
+}
+
+.news-media-2 {
+  background-image: url(images/gustav_550.jpg);
+}
+
+.news-media-3 {
+  background-image: url(images/matchbild_550.jpg);
+}
+
+.news-media-4 {
+  background-image: url(images/sjoaremossen_550.jpg);
+}
+
+.news-heading {
+  margin: 1rem 0 0 0.5rem;
+}
+
+.text-container {
+  margin-left: 8px;
+  padding-bottom: 8px;
+  margin-right: 8px;
+}
+
+.text-container h2 {
+  font-size: 16px;
+}
+
+footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 1rem 0 1rem 0;
+  border-radius: 0 0 1rem 1rem;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Webshop */
+
+.shop-item {
+  background-image: url(images/jacka_475.png);
+}
+
+.shop-item-2 {
+  background-image: url(images/munskydd_475.png);
+}
+
+.shop-item-3 {
+  background-image: url(images/keps_475.png);
+}
+
+.shop-item-4 {
+  background-image: url(images/solhatt_475.png);
+}
+
+.shop-item,
+.shop-item-2,
+.shop-item-3,
+.shop-item-4 {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  border-radius: 16px 16px 0 0;
+}
+
+/* Contact Page */
+
+.contact-media {
+  background-image: url(https://svlgcdn.blob.core.windows.net/gallery/23437/70935/1623205.jpg?v=2);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  border-radius: 16px 16px 0 0;
+}
+
+/* About Page */
+
+.about-media {
+  background-image: url(https://svlgcdn.blob.core.windows.net/gallery/23437/70935/1623269.jpg?v=2);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  border-radius: 16px 16px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    background-color: white;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+  }
+
+  header {
+    margin: 0 0 8px 0;
+    border-radius: 0;
+  }
+
+  #header-logo {
+    padding: 1rem;
+  }
+
+  #header-logo h1 {
+    font-size: 24px;
+    padding-left: 2rem;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  ul {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 0 0 2rem;
+  }
+
+  ul li a {
+    display: flex;
+    padding: 1em;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+
+  .news-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .news-article {
+    margin: 0 8px 24px 8px;
+  }
+
+  .head-news-card .news-card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .news-card {
+    width: 156px;
+  }
+
+  .head-news-media {
+    background-image: url(images/falun_500.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .news-media,
+  .news-media-2,
+  .news-media-3,
+  .news-media-4 {
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .news-media {
+    background-image: url(images/sergei_300.jpg);
+  }
+
+  .news-media-2 {
+    background-image: url(images/gustav_300.jpg);
+  }
+
+  .news-media-3 {
+    background-image: url(images/matchbild_300.jpg);
+  }
+
+  .news-media-4 {
+    background-image: url(images/sjoaremossen_300.jpg);
+  }
+
+  .news-heading {
+    padding: 1rem 0 0 0.5rem;
+    margin: 0;
+  }
+
+  .text-container {
+    margin-left: 8px;
+    padding-bottom: 8px;
+  }
+
+  .news-card h2 {
+    font-size: 16px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    /* font-weight: 300; */
+  }
+
+  h2 {
+    /* font-weight: 400; */
+    font-size: 16px;
+  }
+
+  footer {
+    background-color: green;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  footer {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Webshop */
+
+  .shop-item {
+    background-image: url(images/jacka_250.png);
+  }
+
+  .shop-item-2 {
+    background-image: url(images/munskydd_250.png);
+  }
+
+  .shop-item-3 {
+    background-image: url(images/keps_250.png);
+  }
+
+  .shop-item-4 {
+    background-image: url(images/solhatt_250.png);
+  }
+
+  .shop-item,
+  .shop-item-2,
+  .shop-item-3,
+  .shop-item-4 {
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    border-radius: 16px 16px 0 0;
+  }
+
+  /* Contact Page */
+
+  .contact-media {
+    height: 150px;
+  }
+
+  /* About Page */
+
+  .about-media {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+  body {
+    max-width: 720px;
+  }
+
+  #header-logo {
+    padding: 1rem;
+  }
+
+  #header-logo h1 {
+    font-size: 32px;
+    padding-left: 1.5rem;
+  }
+
+  ul li a {
+    padding: 1em;
+    font-size: 1em;
+  }
+
+  .news-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    column-gap: 16px;
+    width: 100%;
+  }
+
+  .news-article {
+    max-width: 100%;
+  }
+
+  .head-news-media {
+    height: 300px;
+  }
+
+  .news-media,
+  .news-media-2,
+  .news-media-3,
+  .news-media-4 {
+    height: 200px;
+  }
+
+  .contact-media {
+    height: 200px;
+  }
+
+  .about-media {
+    height: 200px;
+  }
+}

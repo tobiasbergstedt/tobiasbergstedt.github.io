@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cities Service</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="la.css">
+  <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+
+  <header>
+    <h1>PhoneCompareCompany</h1>
+    <nav>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chart.html">Chart</a></li>
+        <li><a href="cities.html"><strong>Cities</strong></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="wrapper">
+    <main>
+      <section id="search_section">
+        <h3 id="h3_header">Add, remove or edit cities in list</h3>
+        <div class="cities_result">
+          <div class="la-ball-clip-rotate-multiple la-dark la-2x cities_load" id="loading">
+            <div></div>
+            <div></div>
+          </div>
+          <div class="cities_grid">
+            <ul id="cities_list"></ul>
+          </div>
+          <div id="buttons">
+            <input type="button" value="Reload cities" id="reload_cities">
+            <input type="button" value="Add city" id="add_city">
+          </div>
+        </div>
+      </section>
+      <section id="add_form_section">
+        <h3>Add new city</h3>
+        <form id="add_form">
+          <label>
+            City name
+            <input id="cityName" placeholder="City Name">
+          </label>
+          <label>
+            Population
+            <input id="populationValue" placeholder="Population">
+          </label>
+          <input id="send_new_city" type="submit" value="Send">
+        </form>
+      </section>
+      <section id="update_form_section">
+        <h3>Update city</h3>
+        <form id="update_form">
+          <label>
+            City name
+            <input id="update_city_name" placeholder="City Name">
+          </label>
+          <label>
+            City ID
+            <p id="city_id"></p>
+          </label>
+          <label>
+            Population
+            <input id="update_population" placeholder="Population">
+          </label>
+          <input id="update_city" type="submit" value="Update">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2021, Phone Comparison Tool A/S</p>
+    </footer>
+  </div>
+
+  <script src="cities.js"></script>
+
+</body>
+
+</html>

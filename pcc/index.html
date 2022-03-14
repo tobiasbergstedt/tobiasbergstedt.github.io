@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone Comparison Service</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="la.css">
+  <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+
+  <header>
+    <h1>PhoneCompareCompany</h1>
+    <nav>
+      <ul id="navbar">
+        <li><a href="index.html"><strong>Home</strong></a></li>
+        <li><a href="chart.html">Chart</a></li>
+        <li><a href="cities.html">Cities</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="wrapper">
+    <main>
+      <section id="search_section">
+        <h3 id="h3_header">Search phones and compare specs</h3>
+        <div class="search_div">
+          <img class="search-icon"
+            src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU2Ljk2NiA1Ni45NjYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU2Ljk2NiA1Ni45NjY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPHBhdGggZD0iTTU1LjE0Niw1MS44ODdMNDEuNTg4LDM3Ljc4NmMzLjQ4Ni00LjE0NCw1LjM5Ni05LjM1OCw1LjM5Ni0xNC43ODZjMC0xMi42ODItMTAuMzE4LTIzLTIzLTIzcy0yMywxMC4zMTgtMjMsMjMgIHMxMC4zMTgsMjMsMjMsMjNjNC43NjEsMCw5LjI5OC0xLjQzNiwxMy4xNzctNC4xNjJsMTMuNjYxLDE0LjIwOGMwLjU3MSwwLjU5MywxLjMzOSwwLjkyLDIuMTYyLDAuOTIgIGMwLjc3OSwwLDEuNTE4LTAuMjk3LDIuMDc5LTAuODM3QzU2LjI1NSw1NC45ODIsNTYuMjkzLDUzLjA4LDU1LjE0Niw1MS44ODd6IE0yMy45ODQsNmM5LjM3NCwwLDE3LDcuNjI2LDE3LDE3cy03LjYyNiwxNy0xNywxNyAgcy0xNy03LjYyNi0xNy0xN1MxNC42MSw2LDIzLjk4NCw2eiIgZmlsbD0iIzAwMDAwMCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+          <input type="text" name="brands_filter" id="search_bar" placeholder="Search brands here">
+          <img class="clear-icon"
+            src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxLjk3NiA1MS45NzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxLjk3NiA1MS45NzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPGc+Cgk8cGF0aCBkPSJNNDQuMzczLDcuNjAzYy0xMC4xMzctMTAuMTM3LTI2LjYzMi0xMC4xMzgtMzYuNzcsMGMtMTAuMTM4LDEwLjEzOC0xMC4xMzcsMjYuNjMyLDAsMzYuNzdzMjYuNjMyLDEwLjEzOCwzNi43NywwICAgQzU0LjUxLDM0LjIzNSw1NC41MSwxNy43NCw0NC4zNzMsNy42MDN6IE0zNi4yNDEsMzYuMjQxYy0wLjc4MSwwLjc4MS0yLjA0NywwLjc4MS0yLjgyOCwwbC03LjQyNS03LjQyNWwtNy43NzgsNy43NzggICBjLTAuNzgxLDAuNzgxLTIuMDQ3LDAuNzgxLTIuODI4LDBjLTAuNzgxLTAuNzgxLTAuNzgxLTIuMDQ3LDAtMi44MjhsNy43NzgtNy43NzhsLTcuNDI1LTcuNDI1Yy0wLjc4MS0wLjc4MS0wLjc4MS0yLjA0OCwwLTIuODI4ICAgYzAuNzgxLTAuNzgxLDIuMDQ3LTAuNzgxLDIuODI4LDBsNy40MjUsNy40MjVsNy4wNzEtNy4wNzFjMC43ODEtMC43ODEsMi4wNDctMC43ODEsMi44MjgsMGMwLjc4MSwwLjc4MSwwLjc4MSwyLjA0NywwLDIuODI4ICAgbC03LjA3MSw3LjA3MWw3LjQyNSw3LjQyNUMzNy4wMjIsMzQuMTk0LDM3LjAyMiwzNS40NiwzNi4yNDEsMzYuMjQxeiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+        </div>
+        <div class="brands_result">
+          <div class="la-ball-clip-rotate-multiple la-dark la-2x" id="loading">
+            <div></div>
+            <div></div>
+          </div>
+          <ul id="brands_list"></ul>
+        </div>
+        <div class="la-ball-clip-rotate-multiple la-dark la-2x" id="loading_models">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="phones_result">
+          <div class="result_show">
+            <h2 id="brand_header"></h2>
+            <button id="show_hide" type="button">Show/hide list</button>
+          </div>
+          <div class="result_grid">
+          </div>
+        </div>
+      </section>
+      <section id="content">
+        <div class="comparer">
+          <div class="phones_grid">
+            <h3></h3>
+            <p id="compare1"></p>
+            <p id="compare2"></p>
+            <div class="la-ball-clip-rotate-multiple la-dark la-2x" id="loading_properties">
+              <div></div>
+              <div></div>
+            </div>
+            <img id="first_image" src="" alt="">
+            <img id="second_image" src="" alt="">
+          </div>
+          <div class="properties_grid">
+            <h3>Properties</h3>
+            <h3></h3>
+            <h3></h3>
+            <p>Status:</p>
+            <p id="status1"></p>
+            <p id="status2"></p>
+
+            <p>Dimensions:</p>
+            <p id="dimensions1"></p>
+            <p id="dimensions2"></p>
+
+            <p>Weight:</p>
+            <p id="weight1"></p>
+            <p id="weight2"></p>
+
+            <p>SIM:</p>
+            <p id="sim1"></p>
+            <p id="sim2"></p>
+
+            <p>Screen resolution:</p>
+            <p id="resolution1"></p>
+            <p id="resolution2"></p>
+
+            <p>Screen type:</p>
+            <p id="screen_type1"></p>
+            <p id="screen_type2"></p>
+
+            <p>Screen size:</p>
+            <p id="screen_size1"></p>
+            <p id="screen_size2"></p>
+
+            <p>Operating System:</p>
+            <p id="os1"></p>
+            <p id="os2"></p>
+
+            <p>Processor:</p>
+            <p id="processor1"></p>
+            <p id="processor2"></p>
+
+            <p>Internal Memory:</p>
+            <p id="memory1"></p>
+            <p id="memory2"></p>
+
+            <p>USB Type:</p>
+            <p id="usb_type1"></p>
+            <p id="usb_type2"></p>
+
+            <p>Battery:</p>
+            <p id="battery1"></p>
+            <p id="battery2"></p>
+
+            <p>Charging:</p>
+            <p id="charging1"></p>
+            <p id="charging2"></p>
+
+            <p>Price:</p>
+            <p id="price1"></p>
+            <p id="price2"></p>
+
+            <p>Benchmark:</p>
+            <p id="benchmark1"></p>
+            <p id="benchmark2"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2021, Phone Comparison Tool A/S</p>
+    </footer>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
