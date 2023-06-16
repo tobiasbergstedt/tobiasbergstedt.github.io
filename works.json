@@ -1,5 +1,31 @@
 [
   {
+    "id": 14,
+    "title": "Arena Ultimatum",
+    "text": "An individual project for an online sports manager game. (Currently only styled for mobile devices)",
+    "link": "https://arena-5ce01.web.app",
+    "url": "/assets/work/arenaultimatum.png",
+    "button": "Live version"
+  },
+  {
+    "id": 13,
+    "title": "Galleri TB",
+    "text": "An individual project creating a WordPress page for an art gallery.",
+    "link": "galleritb/index.html",
+    "url": "/assets/work/galleritb.png",
+    "button": "Live version"
+  },
+  {
+    "id": 12,
+    "title": "Season ticket",
+    "text": "Season ticket design for Frillesås Bandy, for the season 2022/2023.",
+    "path": "/work/12",
+    "url": "/assets/work/card2.png",
+    "fullImage": "/assets/work/full/card2.png",
+    "srcset": "/assets/work/small/card2.png 350w, /assets/work/full/card2.png 700w",
+    "button": "Check me out!"
+  },
+  {
     "id": 11,
     "title": "Swindlr",
     "text": "A group project at ITHS where we created a dating site called Swindlr.",

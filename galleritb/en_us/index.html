@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleri TB</title>
+    <link href="./../wp-content/themes/twentytwenty-child/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body class="front-page-body">
+    <main id="front-page-main" style="background-image:url(.//wp-content/uploads/2023/01/dali-005.jpg)">
+      <div class="front-page-logo">
+        <a href="./index.html" class="custom-logo-link" rel="home" aria-current="page"><img width="1000" height="1000" src="./../wp-content/uploads/2022/12/gallery_logo_bg.png" class="custom-logo" alt="Galleri TB" decoding="async" srcset="./../wp-content/uploads/2022/12/gallery_logo_bg.png 1000w, ./../wp-content/uploads/2022/12/gallery_logo_bg-300x300.png 300w, ./../wp-content/uploads/2022/12/gallery_logo_bg-150x150.png 150w, ./../wp-content/uploads/2022/12/gallery_logo_bg-768x768.png 768w" sizes="(max-width: 1000px) 100vw, 1000px"></a>      </div>
+      <div class="front-page-content">
+        <script>
+          var carousel_index = 0;
+          var array_length = 5;
+          var all_matches = [".\/\/wp-content\/uploads\/2023\/01\/dali-005.jpg",".\/\/wp-content\/uploads\/2023\/01\/dali-003-1.jpg",".\/\/wp-content\/uploads\/2023\/01\/dali-002.jpg",".\/\/wp-content\/uploads\/2023\/01\/dali-004.jpg",".\/\/wp-content\/uploads\/2023\/01\/dali-001.png"];
+
+          var time_out = setTimeout(change_image, 5000);
+
+          function change_image() {
+            if (carousel_index < (array_length - 1)) {
+              carousel_index++;
+            } else {
+              carousel_index = 0;
+            }
+            document.getElementById('front-page-main').style.backgroundImage = "url(" + all_matches[carousel_index] + ")";
+            clearTimeout(time_out);
+            time_out = setTimeout(change_image, 5000);
+          }
+          function change_image_back() {
+            if (carousel_index < 1) {
+              carousel_index = array_length - 1;
+            } else {
+              carousel_index--;
+            }
+            document.getElementById('front-page-main').style.backgroundImage = "url(" + all_matches[carousel_index] + ")";
+            clearTimeout(time_out);
+            time_out = setTimeout(change_image, 5000);
+          }
+        </script>
+        <div class="button-container">
+          <button class="carousel-button" onclick="change_image()">&#xbb;</button>
+          <button class="carousel-button" onclick="change_image_back()">&#xab;</button>
+        </div>
+        <div class="menu-front-page-container"><ul id="menu-front-page" class="menu">
+<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="./utstallningar/index.html">Exhibitions</a></li>
+<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="./konstverk/index.html">Shop</a></li>
+</ul></div>        <ul class="wp-block-latest-posts__list wp-block-latest-posts">
+<li>
+<a class="wp-block-latest-posts__post-title" href="./utstallningar/salvador-dali/index.html">Salvador Dalí</a><div class="wp-block-latest-posts__post-excerpt">5 january 2022 - 12 february 2023.</div>
+</li>
+</ul>      </div>
+    </main>
+  </body>
+</html>
