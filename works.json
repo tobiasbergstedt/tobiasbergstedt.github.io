@@ -1,5 +1,21 @@
 [
   {
+    "id": 16,
+    "title": "Sanrachna Steel",
+    "text": "A website for the steel detailing company Sanrachna Steel, built with WordPress.",
+    "link": "https://tobiasbergstedt.se/sanrachna",
+    "url": "/assets/work/sanrachna.png",
+    "button": "Live version"
+  },
+  {
+    "id": 15,
+    "title": "Pellerin",
+    "text": "A professional website for Pellerin Kiropraktik, built with Vue.",
+    "link": "https://tobiasbergstedt.se/pellerin",
+    "url": "/assets/work/pellerin.png",
+    "button": "Live version"
+  },
+  {
     "id": 14,
     "title": "Arena Ultimatum",
     "text": "An individual project for an online sports manager game. (Currently only styled for mobile devices)",
