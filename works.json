@@ -1,5 +1,13 @@
 [
   {
+    "id": 17,
+    "title": "by Bergstedt",
+    "text": "Portfolio and web shop for my woodworking hobby, built with React. Backend using Strapi, Railway and AWS (S3).",
+    "link": "https://tobiasbergstedt.se",
+    "url": "/assets/work/bybergstedt.png",
+    "button": "Live version"
+  },
+  {
     "id": 16,
     "title": "Sanrachna Steel",
     "text": "A website for the steel detailing company Sanrachna Steel, built with WordPress.",
